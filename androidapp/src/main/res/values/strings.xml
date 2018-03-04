@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CTSIG Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="intro_title_1">相遇</string>
+    <string name="intro_desc_1">茫茫人海中，我与你们相遇</string>
+    <string name="intro_title_2">相识</string>
+    <string name="intro_desc_2">曾经的陌生，到最后无话不说</string>
+    <string name="intro_title_3">相知</string>
+    <string name="intro_desc_3">一路走来，感谢有你们，我的室友们</string>
+    <string name="intro_title_4">相爱</string>
+    <string name="intro_desc_4">微室，为更好的寝室互动而生</string>
+    <string name="title_activity_smart_tab">SmartTabActivity</string>
+
+
+    <!-- Smart Tab module -->
+    <string name="recommended">Recommended</string>
+    <string name="topics">Topics</string>
+    <string name="wiki">Wiki</string>
+    <string name="me">Me</string>
+</resources>
