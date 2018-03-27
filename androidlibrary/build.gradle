@@ -27,7 +27,7 @@ android {
 }
 
 ext {
-    supportLibVersion = '23.+'
+    supportLibVersion = '25.0.0'
     butterknifeVersion = '8.4.0'
     nucleusVersion = '3.0.0'
     retrofit2Version = '2.0.1'
