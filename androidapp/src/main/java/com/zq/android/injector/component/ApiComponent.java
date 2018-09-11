@@ -1,6 +1,9 @@
 package com.zq.android.injector.component;
 
+import com.zq.android.base.BasePresenter;
 import com.zq.android.injector.module.ApiModule;
+import com.zq.android.module.smarttab.activity.SmartTabActivity;
+import com.zq.android.module.smarttab.presenter.WeiXinPresenter;
 
 import javax.inject.Singleton;
 
@@ -15,4 +18,8 @@ import dagger.Component;
 @Singleton
 @Component(modules = ApiModule.class)
 public interface ApiComponent {
+
+    void inject(WeiXinPresenter weiXinPresenter);
+
+
 }

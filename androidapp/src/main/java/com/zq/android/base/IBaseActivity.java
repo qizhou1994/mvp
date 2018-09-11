@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
+import com.zq.android.injector.component.ApiComponent;
 import com.zq.android.injector.component.AppComponent;
 
 /**
@@ -39,7 +40,7 @@ public interface IBaseActivity {
     /**
      * 注入
      */
-    public void injectModule(AppComponent appComponent);
+    public void injectModule(ApiComponent apiComponent);
 
     /**
      * 获取当前上下文对象

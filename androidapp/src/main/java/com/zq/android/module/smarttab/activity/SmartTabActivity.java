@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.zq.android.R;
+import com.zq.android.api.Api;
 import com.zq.android.base.BaseActivity;
+import com.zq.android.injector.component.ApiComponent;
 import com.zq.android.injector.component.AppComponent;
 import com.zq.android.module.smarttab.fragment.MeFragment;
 import com.zq.android.module.smarttab.fragment.RecommendedFragment;
@@ -19,6 +21,7 @@ import com.zq.android.module.smarttab.fragment.WikiFragment;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
+import com.zq.android.module.smarttab.presenter.WeiXinPresenter;
 
 import butterknife.BindView;
 
@@ -51,7 +54,7 @@ public class SmartTabActivity extends BaseActivity {
     }
 
     @Override
-    public void injectModule(AppComponent appComponent) {
+    public void injectModule(ApiComponent apiComponent) {
 
     }
 

@@ -8,7 +8,7 @@ package com.zq.android.api;
  */
 public class Api {
     // 数据数据API
-    public static final String BASE_URL = "https://api.github.com";
+    public static final String BASE_URL = "http://v.juhe.cn/";
     // 聚合微信精选key
     public static final String KEY_WEIXIN = "3764850bc29d2a42034d9df9a7f5a00b" ;
     // 每页20条数据

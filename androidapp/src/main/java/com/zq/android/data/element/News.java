@@ -56,4 +56,15 @@ public class News {
         return this.url;
     }
 
+    @Override
+    public String toString() {
+        return "News{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", source='" + source + '\'' +
+                ", firstImg='" + firstImg + '\'' +
+                ", mark='" + mark + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

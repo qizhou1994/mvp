@@ -133,6 +133,9 @@ dependencies {
 
     // 图片加载 http://fresco-cn.org/docs/index.html
     compile 'com.facebook.fresco:fresco:0.10.0'
+// stetho
+    compile "com.facebook.stetho:stetho:${stethoVersion}"
+    compile "com.facebook.stetho:stetho-okhttp3:${stethoVersion}"
 
     // 找出内存泄漏
     debugCompile "com.squareup.leakcanary:leakcanary-android:${leakcanaryVersion}"

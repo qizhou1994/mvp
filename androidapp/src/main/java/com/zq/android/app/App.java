@@ -46,9 +46,7 @@ public class App extends Application {
     }
 
     private void initializeComponent() {
-        appComponent = DaggerAppComponent.builder()
-                .appModule(new AppModule(this))
-                .build();
+
         apiComponent = DaggerApiComponent.builder()
                 .apiModule(new ApiModule())
                 .build();

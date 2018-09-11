@@ -14,7 +14,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.zq.android.R;
+import com.zq.android.api.Api;
 import com.zq.android.base.BaseActivity;
+import com.zq.android.injector.component.ApiComponent;
 import com.zq.android.injector.component.AppComponent;
 import com.zq.android.module.main.view.IMainView;
 
@@ -134,6 +136,6 @@ public class MainActivity extends BaseActivity
     }
 
     @Override
-    public void injectModule(AppComponent appComponent) {
+    public void injectModule(ApiComponent appComponent) {
     }
 }

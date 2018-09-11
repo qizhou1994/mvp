@@ -1,6 +1,11 @@
 package com.zq.android.injector.module;
 
+import com.zq.android.model.MainModel;
+
+import javax.inject.Singleton;
+
 import dagger.Module;
+import dagger.Provides;
 
 /**
  * @des:
@@ -10,4 +15,9 @@ import dagger.Module;
  */
 @Module
 public class ApiModule {
+    @Provides
+    @Singleton
+    MainModel provideMainModel() {
+        return new MainModel();
+    }
 }
