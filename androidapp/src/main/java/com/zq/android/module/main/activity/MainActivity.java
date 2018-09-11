@@ -18,6 +18,8 @@ import com.zq.android.base.BaseActivity;
 import com.zq.android.injector.component.AppComponent;
 import com.zq.android.module.main.view.IMainView;
 
+import javax.inject.Inject;
+
 import butterknife.BindView;
 
 public class MainActivity extends BaseActivity
@@ -133,6 +135,5 @@ public class MainActivity extends BaseActivity
 
     @Override
     public void injectModule(AppComponent appComponent) {
-
     }
 }

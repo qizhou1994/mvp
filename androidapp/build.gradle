@@ -59,7 +59,7 @@ dependencies {
         // ormlite
         compile 'com.j256.ormlite:ormlite-core:4.48'
         compile 'com.j256.ormlite:ormlite-android:4.48'*/
-    //dagger2
+    //dagger2   //必須要在當前項目下 寫入依賴
     compile "com.google.dagger:dagger:${daggerVersion}"
     apt "com.google.dagger:dagger-compiler:${daggerVersion}"
     compile 'org.glassfish:javax.annotation:10.0-b28'
